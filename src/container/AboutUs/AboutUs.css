@@ -1,0 +1,74 @@
+.app__aboutus-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.aboutus-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 60px;
+  }
+
+.about-subtitle{
+  font-size: 1.2rem;
+    text-align: center;
+    font-weight: 300;
+}
+
+.aboutus-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  
+.aboutus-footer {
+    margin-top: 20px;
+  }
+  
+.aboutus-footer-text {
+    font-size: 20px;
+    text-align: center;
+  }
+
+
+  .image-row {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+    gap: 12rem;
+  }
+  
+  .image-caption {
+    text-align: center; /* Center the captions */
+    
+  }
+  
+  .image-caption p {
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 600;
+  }
+  
+  
+  .image {
+    width: 190px; /* Adjust the size as needed */
+    height: 190px;
+    border-radius: 1.5rem;
+  }
+  
+
+.custom-button2{
+    display: block;
+    margin-top: 70px;
+    margin-left: 70px;
+    padding: 20px;
+    background-color: #FF002B;
+    color: #fff;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}

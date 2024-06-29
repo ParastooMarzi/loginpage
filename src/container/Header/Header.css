@@ -1,0 +1,133 @@
+.app__header {
+    background-color: #FCB2D3;
+}
+
+.app__header-h1 {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    line-height: 117px;
+    font-size: 90px;
+}
+
+.app__header-img img {
+    width: 100%;
+}
+
+.login-form {
+    width: 600px;
+    height: 480px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #FCB2D3;
+    border-radius: 5px;
+
+  }
+  
+  .login-form h2 {
+    text-align: left;
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .sub-heading {
+    text-align: left;
+    font-size: 16px;
+    color: #6c757d;
+    margin-bottom: 60px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+  }
+  
+  .form-group input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  .custom-button {
+    display: block;
+    width: 30%;
+    padding: 10px;
+    background-color: #ff002B;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .custom-button:hover {
+    background-color: #c82333;
+  }
+  
+  .forgot-password {
+    text-align: center;
+    font-size: 14px;
+    color: #13202f;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline;
+  }
+
+  .checkbox-group {
+    display: flex;
+    align-items: center; /* Align items vertically */
+  }
+  
+  .checkbox-label {
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+  
+  
+  
+
+@media screen and (min-width: 2000px) {
+    .app__header-h1 {
+        font-size: 180px;
+        line-height: 210px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .app__header-h1 {
+        font-size: 90px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__header-h1 {
+        font-size: 70px;
+        line-height: 87px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .app__header-h1 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+}
